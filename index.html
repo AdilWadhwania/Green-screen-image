@@ -6,13 +6,16 @@
 </head>
 <body>
 <h1>Upload and Display image</h1>
-<canvas id="can1">
-</canvas>
+
+ <canvas id="can1">
+  </canvas>
+    
 <canvas id="can2">
-</canvas>
+    </canvas><br>
+
 <br>
-<label>foreground: <input type="file"  multiple="false" accept="image/*" id="fginput" onchange="fore()"> </label><br>
-  <label>background: <input type="file"  multiple="false" accept="image/*" id="bginput" onchange="back()"></label><br><br>
+<label>foreground(Upload an image with green background) : <input type="file"  multiple="false" accept="image/*" id="fginput" onchange="fore()"> </label><br>
+  <label>background(Upload an image to set in background ) : <input type="file"  multiple="false" accept="image/*" id="bginput" onchange="back()"></label><br><br>
 <input type="button" value="compose" onclick="compose()">
 <input type="button" value="clear canvas" onclick="clearcanvas()">
 </body>
